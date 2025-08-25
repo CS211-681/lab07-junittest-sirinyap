@@ -3,6 +3,7 @@ package ku.cs.services;
 import ku.cs.models.StudentList;
 
 public class StudentHardCodeDatasource {
+
     public StudentList readData() {
         StudentList list = new StudentList();
         list.addNewStudent("6710400001", "First");
